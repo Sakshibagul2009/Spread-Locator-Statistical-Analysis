@@ -62,26 +62,32 @@ The Log-Normal model fits the transaction amount data better than the Pareto mod
 ## 🖼️ Screenshots and Visualizations
 
 ### Practical 1: Bernoulli and Binomial Distribution
-![Bernoulli Distribution](Screenshots/Practical_1_Bernoulli.png)
+<img width="707" height="567" alt="Practical_1_Bernoulli png" src="https://github.com/user-attachments/assets/29c64543-d471-43a9-be3a-fa6798b3949c" />
 
-![Binomial Distribution](Screenshots/Practical_1_Binomial.png)
+<img width="715" height="567" alt="Practical_1_Binomial png" src="https://github.com/user-attachments/assets/622e3cb7-3f30-43f9-bc3b-e3d42c387d03" />
+
 
 ### Practical 2: Poisson Distribution
-![Poisson Distribution](Screenshots/Practical_2_Poisson.png)
+<img width="720" height="570" alt="Practical_2_Poisson png" src="https://github.com/user-attachments/assets/95cd6f9e-f8b4-4970-a9a0-b1e0363161f9" />
 
 ### Practical 3: Log-Normal and Pareto Distribution
-![Lognormal and Pareto](Screenshots/Practical_3_LogNormal_Pareto.png)
+<img width="742" height="567" alt="Practical_3_LogNormal_Pareto png" src="https://github.com/user-attachments/assets/7362419d-febf-43ff-a449-612513b322e0" />
+
 
 ### Practical 4: Q-Q Plot
-![Q-Q Plot](Screenshots/Practical_4_QQ_Plot.png)
+<img width="740" height="572" alt="Practical_4_QQ_Plot png" src="https://github.com/user-attachments/assets/75e7a096-84c2-446f-88b6-641e6a10a7e2" />
+
 
 ### Practical 5: Box-Cox Transformation
-![Box-Cox Transformation](Screenshots/Practical_5_Box_Cox.png)
+<img width="1240" height="490" alt="Practical_5_Box_Cox png" src="https://github.com/user-attachments/assets/4498c5ae-6550-49c1-82d4-f0b4a00396ee" />
+
+### Practical 6: Z-Score
+<img width="531" height="172" alt="Practical_6_Z_Score png" src="https://github.com/user-attachments/assets/26ae3d48-1bef-40d0-bb42-2cd3d27095a6" />
 
 ### Practical 7: PDF and CDF
-![PDF](Screenshots/Practical_7_PDF.png)
+<img width="1031" height="510" alt="Practical_7_PDF png" src="https://github.com/user-attachments/assets/5c6cafad-3dd4-489c-9573-0832ab7a24fe" />
 
-![CDF](Screenshots/Practical_7_CDF.png)
+<img width="1000" height="513" alt="Practical_7_CDF png" src="https://github.com/user-attachments/assets/1dba284c-1b90-47c3-97e8-b54af5abeaff" />
 
 ## ▶️ How to Run the Project
 
