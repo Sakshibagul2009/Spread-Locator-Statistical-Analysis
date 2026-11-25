@@ -1,139 +1,102 @@
 # Spread Locator: A Statistical Distribution Analysis Model
 
-## Project Overview
+## 📌 Project Overview
+Spread Locator is a statistical analysis project based on e-commerce transaction data. It uses different statistical distributions and techniques to understand transaction amounts, transaction patterns, and data behaviour.
 
-Spread Locator is a statistical analysis project that studies e-commerce transaction data using different probability distributions and statistical techniques.
-
-The main objective is to understand customer transaction behaviour, analyze transaction amounts, identify data patterns and calculate probabilities using Python.
-
-## Project Objectives
-
-- Understand different statistical distributions.
-- Analyze e-commerce transaction data.
-- Fit Bernoulli, Binomial and Poisson distributions.
-- Compare Log-Normal and Power Law distributions.
-- Generate and interpret Q-Q plots.
-- Apply Box-Cox transformation.
+## 🎯 Objectives
+- Analyse e-commerce transaction data.
+- Study Bernoulli and Binomial distributions.
+- Apply the Poisson distribution to daily transaction counts.
+- Fit Log-Normal and Pareto distributions.
+- Analyse data using Q-Q plots.
+- Apply the Box-Cox transformation.
 - Calculate Z-scores and probabilities.
-- Plot Probability Density Function (PDF) and Cumulative Distribution Function (CDF).
+- Understand Probability Density Function (PDF) and Cumulative Distribution Function (CDF).
 
-## Dataset Description
+## 📂 Dataset Information
+The dataset contains 220 e-commerce transaction records with the following columns:
 
-The dataset contains 220 transaction records and 7 columns.
+- transaction_id
+- customer_id
+- transaction_amount
+- transaction_date
+- transaction_count
+- region
+- transaction_status
 
-| Column Name | Description |
-|---|---|
-| transaction_id | Unique transaction ID |
-| customer_id | Unique customer ID |
-| transaction_amount | Transaction amount in rupees |
-| transaction_date | Date of transaction |
-| transaction_count | Number of transactions made by a customer in a week |
-| region | Customer's geographical region |
-| transaction_status | Success or Failure status |
-
-## Technologies Used
-
+## 🛠️ Technologies Used
 - Python
 - Jupyter Notebook
 - Pandas
 - NumPy
-- SciPy
 - Matplotlib
 - Seaborn
+- SciPy
 - Statsmodels
 
-## Project Structure
+## 📊 Practical Analysis
 
-```text
-Spread-Locator-Statistical-Analysis/
-│
-├── spread_locator_dataset.xlsx
-├── Spread_Locator_Analysis.ipynb
-├── Theory_Notes.pdf
-├── README.md
-│
-└── Screenshots/
-    ├── Bernoulli_Binomial.png
-    ├── Poisson.png
-    ├── LogNormal_Pareto.png
-    ├── QQ_Plot.png
-    ├── Box_Cox.png
-    └── PDF_CDF.png
-```
+1. Bernoulli and Binomial Distribution
+2. Poisson Distribution
+3. Log-Normal and Pareto Distribution
+4. Q-Q Plot and Normality Test
+5. Box-Cox Transformation
+6. Z-Score and Probability Calculation
+7. PDF and CDF Analysis
 
-## Part 1: Theoretical Foundation
+## 📈 Key Findings
 
-The following concepts are covered:
-
-1. Statistical Distribution
-2. Q-Q Plot
-3. Discrete and Continuous Distributions
-4. Bernoulli Distribution
-5. Binomial Distribution
-6. Log-Normal Distribution
-7. Power Law Distribution
-8. Box-Cox Transformation
-9. Poisson Distribution
-10. Z-score Probability
-11. PDF and CDF
-
-## Part 2: Data Analysis and Testing
-
-The following practical tasks are performed:
-
-1. Fit Bernoulli and Binomial distributions.
-2. Fit Poisson distribution to daily transaction counts.
-3. Model transaction amounts using Log-Normal and Power Law distributions.
-4. Generate and interpret a Q-Q Plot.
-5. Apply Box-Cox transformation.
-6. Calculate Z-scores and probability of transactions exceeding ₹5,000.
-7. Plot and interpret PDF and CDF.
-8. Identify the best-fitting distribution.
-
-## Installation and Requirements
-
-Install the required Python libraries:
-
-```bash
-pip install pandas numpy scipy matplotlib seaborn statsmodels openpyxl
-```
-
-## How to Run the Project
-
-1. Download or clone this repository.
-2. Keep the Excel dataset and Jupyter Notebook in the same folder.
-3. Install the required libraries.
-4. Open Jupyter Notebook.
-5. Open `Spread_Locator_Analysis.ipynb`.
-6. Run all cells in sequence.
-
-## Key Findings
-
-- Total transactions: 220
-- Mean transaction amount: ₹3,365.19
+- Total records: 220
+- Average transaction amount: ₹3,365.19
 - Median transaction amount: ₹3,077.72
 - Standard deviation: ₹1,985.71
-- Success rate: 44.55%
-- Average daily transactions: 7.10
-- Log-Normal AIC: 3821.03
-- Pareto AIC: 4083.34
-- Box-Cox lambda: -0.1808
-- Z-score for ₹5,000: 0.8233
+- Minimum transaction amount: ₹804.42
+- Maximum transaction amount: ₹20,462.84
+- Success transactions: 98
+- Failed transactions: 122
 
-## Conclusion
+The transaction amount data is positively skewed. The Box-Cox transformation reduces the skewness and makes the distribution more symmetric.
 
-The analysis shows that transaction amounts are strongly right-skewed.
+The Log-Normal model fits the transaction amount data better than the Pareto model among the two models tested, based on AIC.
 
-Based on AIC comparison, the Log-Normal distribution provides a better fit than the fitted Pareto distribution for this dataset.
+## 🖼️ Screenshots and Visualizations
 
-Box-Cox transformation significantly reduces the skewness of transaction amounts.
+### Practical 1: Bernoulli and Binomial Distribution
+![Bernoulli Distribution](Screenshots/Practical_1_Bernoulli.png)
 
-This project demonstrates how statistical distributions and probability techniques can help understand e-commerce transaction behaviour and support data-driven decision-making.
+![Binomial Distribution](Screenshots/Practical_1_Binomial.png)
 
-## Author
+### Practical 2: Poisson Distribution
+![Poisson Distribution](Screenshots/Practical_2_Poisson.png)
 
-Sakshi bagul
+### Practical 3: Log-Normal and Pareto Distribution
+![Lognormal and Pareto](Screenshots/Practical_3_LogNormal_Pareto.png)
 
-Project: Spread Locator – A Statistical Distribution Analysis Model
+### Practical 4: Q-Q Plot
+![Q-Q Plot](Screenshots/Practical_4_QQ_Plot.png)
 
-Subject: Mathematics & Advanced Statistics
+### Practical 5: Box-Cox Transformation
+![Box-Cox Transformation](Screenshots/Practical_5_Box_Cox.png)
+
+### Practical 7: PDF and CDF
+![PDF](Screenshots/Practical_7_PDF.png)
+
+![CDF](Screenshots/Practical_7_CDF.png)
+
+## ▶️ How to Run the Project
+
+1. Download or clone this repository.
+2. Open Jupyter Notebook.
+3. Load the dataset file.
+4. Install the required Python libraries.
+5. Run the notebook cells one by one.
+6. Observe the graphs and statistical results.
+
+## 📝 Conclusion
+
+This project demonstrates how statistical distributions and techniques can be used to analyse e-commerce transaction data. Different distributions help understand transaction patterns, while Q-Q plots, Box-Cox transformation, Z-scores, PDF, and CDF provide additional insights into the data.
+
+## 👩‍💻 Project Type
+Statistics Practical Project
+
+**Project Title:** Spread Locator: A Statistical Distribution Analysis Model
